@@ -5,192 +5,35 @@
 <head>
 
   <meta charset="UTF-8">
-  <meta name="google-site-verification" content="_hlwFWumnhVeKYJwoY47pa4uagAh4I7IZ7UhElPcVf8" />
-  
-  <title>Marco Mezzavilla</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style type="text/css">
+  <title>Marco Mezzavilla</title>
 
-  @font-face {
-    font-family: 'Graphik Web';
-    src: url('font/Graphik-Regular-Web.eot');
-    src: url('font/Graphik-Regular-Web.eot?#iefix') format('embedded-opentype'),
-         url('font/Graphik-Regular-Web.woff') format('woff'),
-         url('font/Graphik-Regular-Web.ttf') format('truetype'),
-         url('font/Graphik-Regular-Web.svg#Graphik Web') format('svg');
-    font-weight: 400;
-  }
-
-  html {
-    background-color: rgba(0,200,0, .2);
-    -webkit-animation: color_change 4s infinite alternate;
-    -moz-animation: color_change 4s infinite alternate;
-    -ms-animation: color_change 4s infinite alternate;
-    -o-animation: color_change 4s infinite alternate;
-    animation: color_change 4s infinite alternate;
-  }
-
-  @-webkit-keyframes color_change {
-    from { background-color: rgba(0,200,0, .2); }
-    to { background-color: rgba(60,200,0, .4); }
-  }
-  @-moz-keyframes color_change {
-    from { background-color: rgba(0,200,0, .2); }
-    to { background-color: rgba(60,200,0, .4); }
-  }
-  @-ms-keyframes color_change {
-    from { background-color: rgba(0,200,0, .2); }
-    to { background-color: rgba(60,200,0, .4); }
-  }
-  @-o-keyframes color_change {
-    from { background-color: rgba(0,200,0, .2); }
-    to { background-color: rgba(60,200,0, .4); }
-  }
-  @keyframes color_change {
-    from { background-color: rgba(0,200,0, .2); }
-    to { background-color: rgba(60,200,0, .4); }
-  }
-
-  body {
-    font-family: 'Graphik Web';
-    font-size: 36px;
-    line-height: 1.3em;
-    letter-spacing: 0.03em;
-    color: #222;
-    overflow: auto;
-    margin-bottom: 50px;
-  }
-
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  a:link, a:visited {
-    border-bottom: 2px solid #fff;
-  }
-
-  a:hover {
-    border-bottom: 2px solid #222;
-  }
-
-  h1 {
-    font-size: 78px;
-    font-weight: 400;
-    line-height: 1.2em;
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  ul li {
-    list-style-type: none;
-  }
-
-  #todo, #current, #select, #touch {
-    text-align: left;
-    display: block;
-    position: relative;
-  }
-
-  .small {
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-top: 40px;
-  }
-
-  .important {
-    color: #ee2200;
-  }
-
-  .hide {
-    display: none;
-    visibility: none;
-    opacity: 0;
-  }
-
-  .important a:hover {
-    border-bottom: 2px solid #ee3300;
-  }
-
-  .nav {
-    color: #fff;
-    font-size: 18px;
-  }
-
-  .nav li {
-    line-height: 60px;
-    opacity: 0;
-    transition: all 0.3s ease;
-  }
-
-  .nav:hover li {
-    opacity: 1;
-  }
-
-  .nav img {
-    float: left;
-    margin-right: 1em;
-  }
-
-  </style>
+  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
-<body>
+<body id="index">
 
-  <nav class="nav">
-  <a href="about/"><img src="mame.svg" class="logo">
-  <ul>
-    <li>About MaMe</li>
-  </ul>
-  </a>
-  </nav>
+  <a href="works/index.html"> <img src="assets/images/back.svg" class="back"> </a>
+  <a href="now/index.html"> <img src="assets/images/next.svg" class="next"> </a>
 
-  <h1>Hi, I'm Marco.
-  <br />I create websites.</h1>
+  <div class="info">
+    <div class="logo"></div>
+    <h2 class="info-big">Hi, I'm Marco.<br />I create websites.</h2>
 
-  <section id="todo">
-  <p class="small">To Do List</p>
-  <ul>
-    <li>Something related to coffee</li>
-  </ul>
-  </section>
 
-  <section id="current" >
-  <p class="small">Now Working On</p>
-  <ul>
-    <li>Mind the Gap (side project)</li>
-    <li><a href="http://yellowchip.it/">yellowchip.it</a></li>
-    <li>Rabari Productions</li>
-    <li class="hide"><a href="http://erikakuenka.com/">erikakuenka.com</a></li>
-    <li>
-  </ul>
-  </section>
+    <div class="navigation ">
+    <span class="current">
+      <a class="current" href="now/index.html">Now working on</a>
+    </span>
 
-  <section id="select">
-  <p class="small">Selected Works</p>
-  <ul>
-    <li><a href="http://jacopotonet.com/">jacopotonet.com</a></li>
-    <li class="important"><a href="http://marcomezzavilla.it/asl/">Master's Thesis</a></li>
-    <li><a href="http://floatingland.it/">Floating Land</a></li>
-    <li><a href="http://fromindustrialdesign.com">From</a></li>
-    <li><a href="http://chiaramontemarin.com">Chiaramonte/Marin</a></li>
-    <li><a href="http://moku.io">Moku</a></li>
-  </ul>
-  </section>
-
-  <section id="touch">
-  <p class="small">Get in Touch</p>
-  <ul>
-    <li><a href="mailto:hub@marcomezzavilla.com">hub@marcomezzavilla.com</a></li>
-    <li><a href="http://twitter.com/marcomezzavilla">Twitter</a></li>
-  </ul>
-  </section>
+    <span class="past">
+      <a class="past" href="works/index.html">Select works</a>
+    </span>
+  </div>
+  </div>
 
 </body>
 
