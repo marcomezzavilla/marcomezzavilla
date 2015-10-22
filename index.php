@@ -35,7 +35,7 @@
     </div>
 
     <div class="current small">
-      <p>I'm currently working on <a href="http://careof.org" data-url="http://careof.org">Careof</a> with <a href="http://marianoviola.io" data-url="http://marianoviola.io">Mariano Viola</a> and <a href="http://www.98800.org/"data-url="http://98800.org">AUT</a>.</p>
+      <p>I'm currently working on <a href="http://careof.org" data-url="http://careof.org">Careof</a> with <a href="http://marianoviola.com" data-url="http://marianoviola.com">Mariano Viola</a> and <a href="http://www.98800.org/"data-url="http://98800.org">AUT</a>.</p>
       <p><?php echo html::email("hub@marcomezzavilla.com", $text = "Get in touch", $attr = array("class" => "mail", "data-url" => "hub[at]marcomezzavilla[dot]com")) ?>, or <a href="http://twitter.com/marcomezzavilla" data-url="@marcomezzavilla">follow me</a>.</p>
     </div>
   </div>
