@@ -165,7 +165,8 @@
   }
 
   .inspirations li {
-    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.3em;
   }
 
   @media (min-width: 480px) {
@@ -184,6 +185,7 @@
     }
 
     .inspirations li {
+      margin-top: 0;
       margin-bottom: 0;
     }
   }
