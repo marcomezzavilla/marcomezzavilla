@@ -36,14 +36,14 @@
 
     <div class="current small">
       <p>I'm currently working on <a href="http://careof.org" data-url="http://careof.org">Careof</a> with <a href="http://marianoviola.com" data-url="http://marianoviola.com">Mariano Viola</a> and <a href="http://www.98800.org/"data-url="http://98800.org">AUT</a>.</p>
-      <p><?php echo html::email("hub@marcomezzavilla.com", $text = "Get in touch", $attr = array("class" => "mail", "data-url" => "hub[at]marcomezzavilla[dot]com")) ?>, or <a href="http://twitter.com/marcomezzavilla" data-url="@marcomezzavilla">follow me</a>.</p>
+      <p><?php echo html::email("hub@marcomezzavilla.com", $text = "Get in touch", $attr = array("class" => "mail")) ?>, or <a href="http://twitter.com/marcomezzavilla" data-url="@marcomezzavilla">follow me</a>.</p>
     </div>
   </div>
 
   <div id="more" class="other">
     <div class="text">
       <div class="do small">
-        <h3 class="small">What I do (not do)</h3>
+        <h3 class="small">What I do</h3>
         <p>I create handcrafted websites, choosing time by time the most suitable tool for the purpose.</p>
         <!-- <p>I want to help people make sense of data.</p> -->
         <p>I prefer functionality and meaning over fanciness and trends.</p>
