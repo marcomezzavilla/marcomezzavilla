@@ -31,11 +31,11 @@
       <h1 class="big">
         <p>Hi, I'm <a href="#more" data-url="See below">Marco</a>. <span class="grey">26y/o, Italy.</span></p>
         <p>I create websites.</p>
-        <p>You can see my latest projects <a href="http://iperstudio.net" data-url="http://iperstudio.net">here</a>.</p></h1>
+        <p>You can see my latest projects <a href="http://iperstudio.net" data-url="iperstudio.net">here</a>.</p></h1>
     </div>
 
     <div class="current small">
-      <p>I'm currently working on <a href="http://careof.org" data-url="http://careof.org">Careof</a> with <a href="http://marianoviola.com" data-url="http://marianoviola.com">Mariano Viola</a> and <a href="http://www.98800.org/"data-url="http://98800.org">AUT</a>.</p>
+      <p>I'm currently working on <a href="http://careof.org" data-url="http://careof.org">Careof</a> with <a href="http://marianoviola.com" data-url="marianoviola.com">Mariano Viola</a> and <a href="http://www.98800.org/" data-url="98800.org">AUT</a>.</p>
       <p><?php echo html::email("hub@marcomezzavilla.com", $text = "Get in touch", $attr = array("class" => "mail")) ?>, or <a href="http://twitter.com/marcomezzavilla" data-url="@marcomezzavilla">follow me</a>.</p>
     </div>
   </div>
@@ -53,15 +53,15 @@
       <div class="inspirations small">
         <h3 class="small">Inspirations</h3>
         <ul>
-          <li><a href="http://www.librimondadori.it/libri/l-uomo-senza-qualita-robert-musil" data-url="http://librimondadori.it">L'uomo senza qualità</a> <span class="grey">Currently reading</span></li>
-          <li><a href="http://www.adelphi.it/libro/9788845929250" data-url="http://adelphi.it">Sette brevi lezioni di fisica</a></li>
-          <li><a href="http://smallblog.desandro.com/2014/legend-of-zelda/" data-url="http://smallblog.desandro.com">The Legend of Zelda</a></li>
-          <li><a href="http://malikafavre.com" data-url="http://malikafavre.com">Malika Favre</a></li>
-          <li><a href="http://bost.ocks.org/mike/algorithms/" data-url="http://bost.ocks.org">Visualizing Algorithms</a></li>
-          <li><a href="http://en.wikipedia.org/wiki/Linguistic_relativity" data-url="http://en.wikipedia.org">Linguistic relativity</a></li>
-          <li><a href="http://riccardoceccato.tumblr.com/" data-url="http://riccardoceccato.tumblr.com">Riccardo Ceccato</a></li>
-          <li><a href="http://antirez.com/news/74" data-url="http://antirez.com">Fascinating little programs</a></li>
-          <li><a href="http://thegreatdiscontent.com/interview/paul-octavious" data-url="http://thegreatdiscontent.com">Paul Octavious</a></li>
+          <li><a href="http://www.librimondadori.it/libri/l-uomo-senza-qualita-robert-musil" data-url="librimondadori.it">L'uomo senza qualità</a> <span class="grey">Currently reading</span></li>
+          <li><a href="http://www.adelphi.it/libro/9788845929250" data-url="adelphi.it">Sette brevi lezioni di fisica</a></li>
+          <li><a href="http://smallblog.desandro.com/2014/legend-of-zelda/" data-url="smallblog.desandro.com">The Legend of Zelda</a></li>
+          <li><a href="http://malikafavre.com" data-url="malikafavre.com">Malika Favre</a></li>
+          <li><a href="http://bost.ocks.org/mike/algorithms/" data-url="bost.ocks.org">Visualizing Algorithms</a></li>
+          <li><a href="http://en.wikipedia.org/wiki/Linguistic_relativity" data-url="en.wikipedia.org">Linguistic relativity</a></li>
+          <li><a href="http://riccardoceccato.tumblr.com/" data-url="riccardoceccato.tumblr.com">Riccardo Ceccato</a></li>
+          <li><a href="http://antirez.com/news/74" data-url="antirez.com">Fascinating little programs</a></li>
+          <li><a href="http://thegreatdiscontent.com/interview/paul-octavious" data-url="thegreatdiscontent.com">Paul Octavious</a></li>
         </ul>
       </div>
     </div>
