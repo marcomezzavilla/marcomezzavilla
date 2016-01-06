@@ -73,7 +73,7 @@
 
   <script type="text/javascript">
 
-    $( window ).on("load scroll", function () {
+    $( window ).on("load scroll touchmove", function () {
 
       $( "section.section" ).html(function() {
         var sectionHeight = $( this ).height();
@@ -83,12 +83,12 @@
 
         if ( offset >= - sectionHeight + 91 && offset <= 90 ) {
           // $( this ).find( 'h3' ).html( offset );
-          // $( this ).find( 'h3' ).show();
-          $( this ).find( 'h3' ).removeClass( "is-invisible" )
+          $( this ).find( 'h3' ).show();
+          // $( this ).find( 'h3' ).removeClass( "is-invisible" )
         }
         else {
-          // $( this ).find( 'h3' ).hide();
-          $( this ).find( 'h3' ).addClass( "is-invisible" )
+          $( this ).find( 'h3' ).hide();
+          // $( this ).find( 'h3' ).addClass( "is-invisible" )
         }
       });
 
