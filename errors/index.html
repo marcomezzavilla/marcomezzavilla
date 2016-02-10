@@ -80,13 +80,13 @@
         var scrollTop = $( window ).scrollTop();
         var offset = positionTop - scrollTop;
 
-        if ( offset >= - sectionHeight + 91 && offset <= 90 ) {
+        if (offset >= - sectionHeight + 91 && offset <= 90) {
           // $( this ).find( 'h3' ).html( offset );
-          $( this ).find( 'h3' ).show();
+          $(this).find('h3').show();
           // $( this ).find( 'h3' ).removeClass( "is-invisible" )
         }
         else {
-          $( this ).find( 'h3' ).hide();
+          $(this).find('h3').hide();
           // $( this ).find( 'h3' ).addClass( "is-invisible" )
         }
       });
