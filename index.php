@@ -29,7 +29,7 @@
 
     <div class="lookatme">
       <h1 class="big">
-        <p>Hi, I'm <a href="#more" data-url="See below">Marco</a>. <span class="grey">26y/o, Italy.</span></p>
+        <p>Hi, I'm <a href="#more" data-url="See below">Marco</a>. <span class="grey">27y/o, Italy.</span></p>
         <p>I create websites.</p>
         <p>You can see my latest projects <a href="http://iperstudio.net" data-url="iperstudio.net">here</a>.</p></h1>
     </div>
