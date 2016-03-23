@@ -53,6 +53,7 @@
       <div class="inspirations small">
         <h3 class="small">Inspirations</h3>
         <ul>
+          <li><a href="http://www.bollatiboringhieri.it/scheda.php?codice=17610" data-url="bollatiboringhieri.it">L'uomo è antiquato</a> <span class="grey">Currently reading</span></li>
           <li><a href="http://www.librimondadori.it/libri/opere-scelte-bohumil-hrabal" data-url="librimondadori.it">Hrabal, opere scelte</a> <span class="grey">Currently reading</span></li>
           <li><a href="http://www.librimondadori.it/libri/l-uomo-senza-qualita-robert-musil" data-url="librimondadori.it">L'uomo senza qualità</a> <span class="grey">Currently reading</span></li>
           <li><a href="http://www.adelphi.it/libro/9788845929250" data-url="adelphi.it">Sette brevi lezioni di fisica</a></li>
