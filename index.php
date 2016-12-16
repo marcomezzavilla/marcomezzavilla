@@ -61,7 +61,6 @@
           <li><a href="http://malikafavre.com" data-url="malikafavre.com">Malika Favre</a></li>
           <li><a href="http://bost.ocks.org/mike/algorithms/" data-url="bost.ocks.org">Visualizing Algorithms</a></li>
           <li><a href="http://en.wikipedia.org/wiki/Linguistic_relativity" data-url="en.wikipedia.org">Linguistic relativity</a></li>
-          <!-- <li><a href="http://riccardoceccato.tumblr.com/" data-url="riccardoceccato.tumblr.com">Riccardo Ceccato</a></li> -->
           <li><a href="http://antirez.com/news/74" data-url="antirez.com">Fascinating little programs</a></li>
           <li><a href="http://thegreatdiscontent.com/interview/paul-octavious" data-url="thegreatdiscontent.com">Paul Octavious</a></li>
         </ul>
