@@ -1,5 +1,3 @@
-<?php require('toolkit/bootstrap.php') ?>
-
 <!-- hi, lurker! -->
 
 <!doctype html>
