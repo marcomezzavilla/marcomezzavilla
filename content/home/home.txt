@@ -1,0 +1,16 @@
+Title: Home
+
+----
+
+Intro: Hi, I'm Marco. 27y/o, Italy.
+I create websites.
+I'm proudly part of <a href="http://iperstudio.net" data-url="iperstudio.net">Iperstudio</a> collective.
+
+----
+
+Current: I'm currently working on <a href="#" data-url="New website coming soon">Fondazione Isec</a> with <a href="http://marianoviola.com" data-url="marianoviola.com">Mariano Viola</a> and <a href="http://www.98800.org/" data-url="98800.org">AUT</a>.
+You can see my latest web projects <a href="http://iperstudio.net/work" data-url="iperstudio.net/work">here</a>.
+
+----
+
+Text: 

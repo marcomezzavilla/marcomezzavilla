@@ -1,208 +1,152 @@
-  /*------------------------------------*\
-      BASE
-  \*------------------------------------*/
+/* -----  Base  ------------------------------------------------------------- */
 
-  @font-face {
-    font-family: 'Graphik Web';
-    src: url('../../font/Graphik-Regular-Web.eot');
-    src: url('../../font/Graphik-Regular-Web.eot?#iefix') format('embedded-opentype'),
-         url('../../font/Graphik-Regular-Web.woff') format('woff'),
-         url('../../font/Graphik-Regular-Web.ttf') format('truetype'),
-         url('../../font/Graphik-Regular-Web.svg#Graphik Web') format('svg');
-    font-weight: 400;
-  }
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../../fonts/Graphik-Regular-Web.eot');
+  src: url('../../fonts/Graphik-Regular-Web.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/Graphik-Regular-Web.woff') format('woff'),
+       url('../../fonts/Graphik-Regular-Web.ttf') format('truetype'),
+       url('../../fonts/Graphik-Regular-Web.svg#Graphik Web') format('svg');
+  font-weight: 400;
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
 
-  *, *:before, *:after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
-  }
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  align-items: stretch;
+  background: #fff;
+  color: #141516;
+  display: flex;
+  font-family: 'Graphik Web', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-smoothing: antialiased;
+  font-weight: 400 !important;
+  min-height: 100vh;
+  height: 100%;
+  line-height: 2em;
+}
 
-  body {
-    font-family: 'Graphik Web', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5em;
-    color: #333;
-    font-weight: 400 !important;
-  }
+a:link,
+a:visited {
+  border-bottom: 1px solid;
+  color: #141516;
+  display: inline;
+  opacity: 1;
+  position: relative;
+  text-decoration: none;
+  transition: all .3s ease;
+}
 
-  h1, h2, h3 {
-    font-weight: 400;
-  }
+a:hover {
+  opacity: 1;
+}
 
-  li {
-    list-style-type: none;
-  }
+a:link,
+a[data-url]:after {
+  transition: all .3s ease;
+}
 
-  .grey {
-    color: #bbb; /* C8D8DA */
-  }
+a:hover[data-url]:after {
+  opacity: 1;
+  transition: all .3s ease;
+}
 
-  .small {
-    font-size: 1.5rem;
-    line-height: 1.8em;
-  }
+a[data-url] {
+  display: inline;
+  position: relative;
+  transition: all .3s ease;
+}
 
-  /*------------------------------------*\
-      BODY
-  \*------------------------------------*/
+a[data-url]:after {
+  color: #54EBDC;
+  content: attr(data-url);
+  font-size: .8rem;
+  left: 0;
+  line-height: 1em;
+  margin-left: 0;
+  opacity: 1;
+  position: absolute;
+  top: -1em;
+  white-space: nowrap;
+}
 
-  .info {
-    min-height: 100vh;
-    margin-bottom: 10em;
-  }
-
-  .text {
-    width: 66%;
-    max-width: 790px;
-    min-width: 350px;
-    margin-top: 40px;
-  }
-
-  .lookatme {
-    margin: 80px 40px 40px 40px;
-    margin-bottom: 60px;
-    max-width: 790px;
-  }
-
-  .current {
-    margin: 40px;
-    max-width: 790px;
-  }
-
-  .do, .notdo {
-    padding: 20px 0 20px 40px;
-  }
-
-  .inspirations {
-    padding: 20px 0 20px 40px;
-  }
-
-  h1 {
-    font-size: 3rem;
-    line-height: 1.4em;
-  }
-
-  .big {
-    font-size: 2.6rem;
-    line-height: 1.4em;
-  }
-
-  a {
-    text-decoration: none;
-    border-bottom: 1px solid #333;
-    position: relative;
-    display: inline;
-    line-height: 1em;
-  }
-
-  a[data-url] {
-    position: relative;
-    display: inline;
-    transition: all .3 ease;
-  }
-
-  .mail {
-    border-bottom: 1px dotted #333;
-  }
-
-  a[mailto] {
-    border-bottom: 1px dotted #333;
-  }
-  
+@media (min-width: 480px) {
   a[data-url]:after {
-    content: attr(data-url);
-    position: absolute;
-    top: -1.2em;
-    left: 0;
-    white-space: nowrap;
-    position: absolute;
-    color: #54EBDC;
-    font-size: 13px;
-    line-height: 1em;
-    margin-left: 0;
-    padding: 0.1em;
-    white-space: nowrap;
+    opacity: 0;
   }
-  
-  .inspirations a {
-    max-width: 350px;
-    display: inline;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-  }
+}
 
-  .link {
-    position: absolute;
-    color: #52CBB0;
-    font-size: 13px;
-    line-height: 1em;
-    margin-left: 0;
-    margin-top: -0.5rem;
-    padding: 0.1em;
-    white-space: nowrap;
-    width: auto;
-    display: inline-block;
-  }
+a.mail {
+  border-bottom: 1px dotted;
+}
 
-  a:link, a[data-url]:after {
-    transition: all .3 ease;
-  }
+h1, h2, h3 {
+  font-weight: 400;
+}
 
-  a[data-url]:after {
-    opacity: 1;
-  }
+h1 {
+  font-size: 2.4rem;
+  line-height: 1.4em;
+}
 
-  .inspirations li {
-    margin-top: 0.2em;
-    margin-bottom: 0.3em;
-  }
+h3 {
+  font-size: 1em;
+  margin-left: -1em;
+}
 
-  @media (min-width: 480px) {
-    a[data-url]:after {
-      opacity: 0;
-    }
+h3:before {
+  content: "•";
+  display: inline-block;
+  width: 1em;
+}
 
-    .small {
-      font-size: 1.6rem;
-      line-height: 1.8em;
-    }
+li {
+  list-style-type: none;
+}
 
-    .big {
-      font-size: 3rem;
-      line-height: 1.4em;
-    }
+/* -----  Layout  ----------------------------------------------------------- */
 
-    .inspirations li {
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-  }
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3em;
+  border-right: 1px solid;
+}
 
-  a:hover[data-url]:after {
-    opacity: 1;
-    transition: all .3 ease;
-  }
+.main__current {
+  justify-content: flex-end;
+  bottom: 0;
+  margin-top: 4em;
+}
 
-  a, a:link, a:visited {
-    color: #333;
-  }
+.other {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
 
-  h3 {
-    margin-bottom: 0.6em;
-  }
+.other__time {
+  flex: 1;
+  padding: 3em;
+}
 
-  .other {
-    margin-bottom: 80px;
-  }
+.other__random {
+  flex: 2;
+  border-top: 1px solid;
+  padding: 3em;
+  position: relative;
+}
