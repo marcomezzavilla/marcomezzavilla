@@ -1,1 +1,14 @@
-toolkit/
+Icon
+.DS_Store
+
+/thumbs/*
+!/thumbs/index.html
+
+/site/cache/*
+!/site/cache/index.html
+
+/site/accounts/*
+!/site/accounts/index.html
+
+/assets/avatars/*
+!/assets/avatars/index.html
