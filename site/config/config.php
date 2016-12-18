@@ -30,3 +30,10 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 */
 
 c::set('debug', true);
+
+c::set('kirbytext.video.youtube.options', [
+  'autoplay' => false,
+  'controls' => 0,
+  'modestbranding' => 1,
+  'showinfo' => 0,
+]);

@@ -1,0 +1,24 @@
+title: Project
+
+fields:
+  title:
+    label: Title
+    type:  text
+  featured:
+    label: Featured
+    type: checkbox
+    width: 1/2
+  date:
+    default: today
+    label: Date
+    type: date
+    width: 1/2
+  videourl:
+    label: video
+    type: url
+  excerpt:
+    label: Excerpt
+    type:  textarea
+  text:
+    label: Text
+    type:  textarea

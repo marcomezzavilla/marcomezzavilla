@@ -1,0 +1,34 @@
+/* -----  Home  ------------------------------------------------------------- */
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid;
+}
+
+.main__current {
+  justify-content: flex-end;
+  bottom: 0;
+  margin-top: 4em;
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.other__time {
+  flex: 1;
+  padding: 3em;
+}
+
+.other__random {
+  flex: 2;
+  border-top: 1px solid;
+  padding: 3em;
+  position: relative;
+}

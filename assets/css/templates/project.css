@@ -1,0 +1,21 @@
+/* -----  Project  ---------------------------------------------------------- */
+
+.header {
+  margin-bottom: 2em;
+}
+
+.main__video {
+  width: 100%;
+  /*background: #000;*/
+  flex: 1;
+}
+
+.main__video iframe {
+  width: 100%;
+  height: 80vh;
+  z-index: -1;
+}
+
+.html5-video-player {
+  background-color: #ff0000 !important;
+}
