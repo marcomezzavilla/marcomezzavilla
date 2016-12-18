@@ -10,7 +10,7 @@
 
   <?= css('assets/css/style.css') ?>
 
-  <?php if(date('H:i') < '07:00' && date('H:i') > '23:00'): ?>
+  <?php if(date('H:i') < '07:00' && date('H:i') > '19:00'): ?>
     <!-- it's night -->
     <?= css('assets/css/night.css') ?>
   <?php elseif(date('d/m') == '25/12'): ?>
