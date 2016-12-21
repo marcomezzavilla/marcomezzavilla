@@ -20,7 +20,7 @@
   <div class="other__random">
     <h3>Featured project</h3>
     <?php foreach(page('projects')->children()->visible()->shuffle()->limit(1) as $project): ?>  
-      <p><a href="#"><?= $project->title() ?></a></p>
+      <p><a href="<?= $project->videourl() ?>"><?= $project->title() ?></a></p>
       <br>
       <?= $project->excerpt()->kirbytext() ?>
     <?php endforeach ?>
