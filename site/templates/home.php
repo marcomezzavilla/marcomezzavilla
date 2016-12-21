@@ -13,8 +13,8 @@
   <div class="other__time">
     <h3>News</h3>
     <br>
-    <p>I'm working on my new website.</p>
-    <p>Right now everything is broken here (:</p>
+    <p>Two Years of Iperstudio</p>
+    <p><a href="https://www.marianoviola.com/blog/two-years-of-iperstudio">Read Mariano's post</a></p>
   </div>
   
   <div class="other__random">
