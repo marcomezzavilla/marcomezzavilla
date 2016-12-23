@@ -8,6 +8,7 @@
   <title>Marco Mezzavilla</title>
   <meta name="description" content="I create websites.">
 
+  <link rel="webmention" href="<?php echo url('webmention') ?>">
   <?= css('assets/css/style.css') ?>
   <?= css('@auto') ?>
 
