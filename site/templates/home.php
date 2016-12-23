@@ -7,6 +7,8 @@
     <?= $page->current()->kirbytext() ?>
     <p><?php echo html::email("hub@marcomezzavilla.com", $text = "Get in touch", $attr = array("class" => "mail")) ?>, or <a href="http://twitter.com/marcomezzavilla" data-url="@marcomezzavilla">follow me</a>.</p>
   </div>
+
+  <?php echo webmentions() ?>
 </main>
 
 <section class="other">
