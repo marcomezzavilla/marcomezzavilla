@@ -1,11 +1,13 @@
 /* -----  Home  ------------------------------------------------------------- */
 
-.main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-right: 1px solid;
+@media (min-width: 520px) {
+  .main{
+    border-right: 1px solid;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+  }
 }
 
 .main__current {
@@ -15,10 +17,17 @@
 }
 
 .other {
+  border-top: 1px solid;
   display: flex;
   flex-direction: column;
   flex: 1;
   justify-content: space-between;
+}
+
+@media (min-width: 520px) {
+  .other {
+    border-top: none;
+  }
 }
 
 .other__time {

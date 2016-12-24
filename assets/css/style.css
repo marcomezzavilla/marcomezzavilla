@@ -24,10 +24,8 @@
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  align-items: stretch;
   background: #fff;
   color: #141516;
-  display: flex;
   font-family: 'Graphik Web', Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-smoothing: antialiased;
@@ -35,6 +33,13 @@ body {
   min-height: 100vh;
   height: 100%;
   line-height: 2em;
+}
+
+@media (min-width: 520px) {
+  body {
+    align-items: stretch;
+    display: flex;
+  }
 }
 
 a:link,
