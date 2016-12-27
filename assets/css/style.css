@@ -32,7 +32,7 @@ body {
   font-weight: 400 !important;
   min-height: 100vh;
   height: 100%;
-  line-height: 2em;
+  line-height: 1.5;
 }
 
 @media (min-width: 520px) {
@@ -105,23 +105,32 @@ h1 {
   line-height: 1.4em;
 }
 
-h3 {
-  font-size: 1em;
-  margin-left: -1em;
-}
-
-h3:before {
-  content: "•";
-  display: inline-block;
-  width: 1em;
-}
-
 li {
   list-style-type: none;
+}
+
+pre {
+  margin: 2em 0 !important;
+  display: block;
+  line-height: 1.2 !important;
+}
+
+code {
+  font-family: 'Andale Mono', Menlo, monospace;
+  font-size: .875rem;
 }
 
 /* -----  Layout  ----------------------------------------------------------- */
 
 .main {
   padding: 3em;
-}  
+}
+
+a.button {
+  border: 1px solid;
+  padding: .3em .6em;
+  margin: 1em 0;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+}

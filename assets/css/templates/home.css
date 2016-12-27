@@ -1,5 +1,9 @@
 /* -----  Home  ------------------------------------------------------------- */
 
+body {
+  line-height: 2;
+}
+
 @media (min-width: 520px) {
   .main{
     border-right: 1px solid;
@@ -8,6 +12,17 @@
     flex: 1;
     justify-content: space-between;
   }
+}
+
+h3 {
+  font-size: 1em;
+  margin-left: -1em;
+}
+
+h3:before {
+  content: "•";
+  display: inline-block;
+  width: 1em;
 }
 
 .main__current {

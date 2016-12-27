@@ -1,7 +1,21 @@
 /* -----  Project  ---------------------------------------------------------- */
 
+h3 {
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 2em;
+}
+
 .header {
   margin-bottom: 2em;
+}
+
+@media (min-width: 520px) {
+  .main{
+    flex: .5;
+    margin: auto;
+    min-width: 500px;
+  }
 }
 
 .main__video {

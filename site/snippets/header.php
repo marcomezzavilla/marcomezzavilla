@@ -9,8 +9,12 @@
   <meta name="description" content="I create websites.">
 
   <link rel="webmention" href="<?php echo url('webmention') ?>">
-  <?= css('assets/css/style.css') ?>
-  <?= css('@auto') ?>
+
+  <?= css(array(
+    'assets/css/style.css',
+    '@auto',
+    'assets/css/vendor/prism.css'
+  )) ?>
 
   <?php if(date('H:i a') <= '07:00 am' || date('H:i') >= '18:00 pm'): ?>
     <!-- it's night -->
@@ -20,5 +24,10 @@
     <?= css('assets/css/christmas.css') ?>
   <?php endif ?>
 
+  <?php echo js(array(
+    'assets/js/vendor/prism.js'
+  )) ?>
+
+
 </head>
-<body>
+<body id="<?= $page->template() ?>">
