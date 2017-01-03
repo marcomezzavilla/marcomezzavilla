@@ -16,7 +16,7 @@
     'assets/css/vendor/prism.css'
   )) ?>
 
-  <?php if(date('H:i a') <= '07:00 am' || date('H:i') >= '18:00 pm'): ?>
+  <?php if(date('H:i a') <= '08:00 am' || date('H:i') >= '17:00 pm'): ?>
     <!-- it's night -->
     <?= css('assets/css/night.css') ?>
   <?php elseif(date('d/m') == '25/12'): ?>
